@@ -15,7 +15,7 @@
     This is me testing out a lil html file??
   </p>
 
-  <form action="/action_page.php">
+  <form action="/action_page.php" target="_blank">
     First name:<br>
     <input type="text" name="firstname" value="">
     <br>
@@ -27,7 +27,14 @@
   
   <p>If you click the "Submit" button, the form-data will be sent to a page called "/action_page.php".</p>
   
+  <h2>Radio Buttons</h2>
 
+  <form>
+    <input type="radio" name="gender" value="male" checked> Male<br>
+    <input type="radio" name="gender" value="female"> Female<br>
+    <input type="radio" name="gender" value="other"> Other  
+  </form> 
+  
   <button class="btn btn-default" type="button" onclick="myFunction()">
     If you click it, you confirm that Alexis is stupid. 
   </button>
